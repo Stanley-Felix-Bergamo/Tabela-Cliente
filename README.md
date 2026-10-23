@@ -12,6 +12,5 @@
    <li>Html</li>
    <li>Css</li>
  </ul>
-
 <br>
 </div> 
