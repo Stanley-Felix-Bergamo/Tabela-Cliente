@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  padding: 20px;
+  color: #333;
+}
+
+.tabela {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.tabela thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tabela thead tr td,
+.tabela tbody tr td,
+.tabela tfoot tr td {
+  padding: 15px 20px;
+}
+
+.tabela tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.tabela tbody tr:nth-of-type(even) {
+  background-color: #e2e2e281;
+}
+
+.tabela tbody tr:hover {
+  background-color: #f1f1f1;
+  color: #009879;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.tabela tfoot {
+  background-color: #e6f5f6;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.status {
+  font-weight: bolder;
+  padding: 0.4rem 14px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.status-pago {
+  background-color: rgb(69, 192, 155);
+}
+
+.status-pendente {
+  background-color: rgb(255, 166, 0);
+}
+
+.status-cancelado {
+  background-color: rgb(224, 2, 2);
+}
